@@ -41,10 +41,7 @@ tq_get(get  = "stock.prices",
                mutate_fun = periodReturn,
                period     = "daily",
                col_rename = "Rm")
-view(Rm)
-tail(Rm,10)
 
-#Rm <- Rm[-c(103:112),]
 
 Ri <- na.omit(Ri)
 Rm <- na.omit(Rm)
