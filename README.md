@@ -4,9 +4,7 @@ rm(list = ls())
 
 ### CARREGANDO BIBLIOTECAS
 library(knitr)  
-library(readxl)  
-library(ggplot2)  
-library(dplyr)  
+library(readxl)
 library(readxl)  
 library(tidyverse)  
 library(ggthemes)  
